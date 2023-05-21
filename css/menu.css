@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
+*{
+    box-sizing: border-box; /*todo o site ficasse dentro de uma caixa*/
+ 
+}
+
+
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+}
+
+.header{
+    height: 60px;
+   
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.header, .conteudo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(89, 0, 253);
+    height: -20%;
+    width: 98.9vw;
+}
+.conteudo{
+    margin: auto;
+    width: 100%;
+}
+
+.logo, .icon-menu{
+    margin-top: 10px;
+    color: #fbff00;
+}
+
+.icon-menu{
+
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background:#0010f5;
+    margin-right: 3%;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 10px;
+    margin-left: auto;
+    cursor: pointer;
+
+}
+
+.nav{
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    transition: all 0,4s;
+    
+}.fundo{
+    background-color: rgb(89, 0, 253);
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.menu_link{
+    display: block;
+    padding: 20px;
+    background: #fbff00 ;
+    text-decoration: none;
+    color: #0010f5;
+
+}
+.menu_link:hover,.select{
+    background: rgb(255, 255, 255) ;
+    color: #0010f5;
+    
+}
+.mostrar{
+    left: 0%;
+}
+
+#banner_{
+    margin-top: -100px;
+    margin-left: 0%;
+    z-index: -1000;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: -5%;
+}
+
+.info_coluna{
+    background:rgb(89, 0, 253);
+    color: #fff;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+}
+.info_sistema{
+    position: relative;
+    margin-bottom: 60px;
+}
+.descricao_sistema{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(89, 0, 253, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    
+}.section_titulo{
+    font-size: 25px;
+    margin: 5px;
+}
+.footer{
+    margin-top: 10%;
+    
+    background:#333; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}.footer2{
+    margin-top: 100%;
+
+    background:#333; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}.social [class^= icon-]{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height:  40px;
+    text-align: center;
+}.icon-email{
+    margin-bottom: -9px;
+
+}.prototipo_corpo{
+    background-color: rgb(251, 255, 0,0.5);
+}
+.td_prototipo{
+
+    color: #0010f5;
+    width: 100%;
+    height: 100%;
+    padding: 30%;
+    margin: 50px;
+    text-align: center;
+    margin-top: -15%;
+    
+}#figma{
+    width: 20%;
+    height: 10%;
+    margin-left: 40%;
+    
+}
+.contato{
+     
+    color: #fff;
+    padding: 20%;    
+    text-align: center;
+}
+.contato_social [class^= icon-]{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height:  40px;
+    text-align: center;
+}
+.copy{
+    color: rgba(89, 0, 253);
+}#banner_template{
+    width: 15%;
+    height: 20%;
+    margin-left: 42%;
+    margin-top: 0%;
+}.template_corpo{
+    background-color: rgb(251, 255, 0, 0.5);
+}.info_template{
+    background:rgb(89, 0, 253);
+    color: #fff;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 10%;
+    
+}#jpg_apresentacao{
+    width: 20%;
+    height: 40%;
+    margin-left: 40%;
+}#sobre_img{
+    border-radius: 10px;
+}#ver_template{
+    margin-left: 39.8%;
+    color: #000000;
+}
+@media(min-width: 480px){
+    .logo{
+        font-size: 40px;
+    }.beneficios_txt{
+        font-size: 19px;
+        width: 100%;
+        height: 50%;
+    }.footer{
+        min-height: 0vh;
+    }
+}@media(min-width: 720px){
+    .logo{
+        font-size: 40px;
+    }.beneficios_txt{
+        font-size: 25px;
+        width: 100%;
+        height: 50%;
+    }
+}@media(min-width: 1024px){
+    .logo{
+        font-size: 40px;
+    }.beneficios_txt{
+        font-size: 25px;
+        width: 100%;
+        height: 50%;
+    } .nav{
+        position: static;
+        width: auto;
+    } .menu{
+        display: flex;
+    }.icon-menu{
+        display: none;
+    }.menu_link{
+        background: none;
+        color: #fbff00;
+    }.select{
+        color: #fff;
+        background: #fbff00d2;
+    }.header, .conteudo{
+        height: -120px;
+    }
+}
