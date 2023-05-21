@@ -250,7 +250,7 @@ img{
     }.footer{
         min-height: 0vh;
     }.header, .conteudo{
-        width: 99.9vw;
+        width: 100vw;
     }.header_, .conteudo{
         width: 99.9vw;
     }
