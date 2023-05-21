@@ -264,7 +264,7 @@ img{
         width: 100%;
         height: 50%;
     }.header, .conteudo{
-        width: 99.9vw;
+        width: 100vw;
     }.header_, .conteudo{
         width: 100vw;
     }
