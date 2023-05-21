@@ -47,10 +47,14 @@ img{
 }
 
 .logo, .icon-menu{
-    margin-top: 10px;
+    margin-top: -4px;
     color: #fbff00;
 }
-
+.logo{
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
 .icon-menu{
 
     display: block;
